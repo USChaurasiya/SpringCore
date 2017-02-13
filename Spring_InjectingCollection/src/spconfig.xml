@@ -1,0 +1,40 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean id="dataCollection" class="com.uma.DataCollection">
+		<property name="addressList">
+			<list>
+				<value>India</value>
+				<value>USA</value>
+				<value>New Zeland</value>
+				<value>Pakistan</value>
+				<value>England</value>
+				<value>South Africa</value>
+			</list>
+		</property>
+		<property name="addressSet">
+			<set>
+				<value>India</value>
+				<value>Australia</value>
+				<value>India</value>
+				<value>Hongcong</value>
+				<value>Singapur</value>
+			</set>
+		</property>
+
+		<property name="addressMap">
+			<map>
+				<entry key="1" value="canada" />
+				<entry key="2" value="Nepal" />
+				<entry key="3" value="Thailand" />
+				<entry key="4" value="Spain" />
+			</map>
+		</property>
+	</bean>
+
+
+
+
+</beans>

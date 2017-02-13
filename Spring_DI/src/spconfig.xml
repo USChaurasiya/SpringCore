@@ -1,0 +1,16 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ 
+<beans>
+
+<bean id="textEditor" class="com.uma.TextEditor">
+      <property name="spellChecker" >
+      <!-- Definition for textEditor bean using inner bean -->
+       <bean id="spellChecker" class="com.uma.SpellChecker"/>
+      </property>
+   </bean>
+
+  
+  
+   
+</beans>
