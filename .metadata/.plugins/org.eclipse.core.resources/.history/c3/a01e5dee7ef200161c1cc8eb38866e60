@@ -1,0 +1,12 @@
+package com.uma.Model;
+
+import java.io.Serializable;
+
+public class SignUpDTO implements Serializable 
+{
+private String fname;
+private String lname;
+private long mobile;
+private String gender;
+
+}

@@ -1,0 +1,3 @@
+browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="0">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8090/SpringExample/Signup.jsp|*|http\://localhost\:8090/SpringExample/signup.do|*|http\://localhost\:8090/SpringExample/|*|http\://localhost\:8090/Spring_Redirection/finalPage|*|http\://localhost\:8090/Spring_Redirection/index|*|http\://localhost\:8090/Spring_Redirection/|*|
