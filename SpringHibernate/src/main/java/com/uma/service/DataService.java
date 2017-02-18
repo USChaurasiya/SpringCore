@@ -7,7 +7,7 @@ import com.uma.domain.Employee;
 public interface DataService {
 	public int insertRow(Employee employee);
 
-	 public List getList();
+	 public List<Employee> getList();
 
 	 public Employee getRowById(int id);
 

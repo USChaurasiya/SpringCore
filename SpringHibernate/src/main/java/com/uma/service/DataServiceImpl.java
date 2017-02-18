@@ -3,10 +3,11 @@ package com.uma.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import com.uma.dao.DataDao;
 import com.uma.domain.Employee;
-
+@Component
 public class DataServiceImpl implements DataService 
 {
 	@Autowired
@@ -16,7 +17,7 @@ public class DataServiceImpl implements DataService
 		 return dataDao.insertRow(employee);
 	}
 
-	public List getList() {
+	public List<Employee> getList() {
 		return dataDao.getList();
 	}
 

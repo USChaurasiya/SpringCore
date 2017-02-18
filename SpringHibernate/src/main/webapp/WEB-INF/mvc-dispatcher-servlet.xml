@@ -31,7 +31,7 @@
    <props>
     <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
     <prop key="hibernate.show_sql">true</prop>
-    
+    <prop key="hibernate.hbm2ddl.auto">update</prop>
    </props>
   </property>
  </bean>
@@ -44,7 +44,7 @@
  <bean id="persistenceExceptionTranslationPostProcessor"
   class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
   
- <bean
+ <bean id="viewResolver"
   class="org.springframework.web.servlet.view.InternalResourceViewResolver">
   <property name="prefix">
    <value>/WEB-INF/pages/</value>
