@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <html>
 <head>
-<title>Being Java Guys | User Details</title>
+<title> User Details</title>
 </head>
 <body>
  <center>

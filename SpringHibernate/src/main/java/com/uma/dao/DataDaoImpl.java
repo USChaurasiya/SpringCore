@@ -43,7 +43,7 @@ public class DataDaoImpl implements DataDao {
 	public int updateRow(Employee employee) {
 		Session session = sessionFactory.openSession();
 		Transaction tx = session.beginTransaction();
-		session.saveOrUpdate(employee);
+		session.update(employee);
 		tx.commit();
 		Serializable id = session.getIdentifier(employee);
 		session.close();

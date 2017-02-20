@@ -9,14 +9,14 @@ import javax.persistence.Id;
 
 import org.springframework.stereotype.Component;
 
+/**
+ * Employee DTO Class Containing all info related to employee.. This class is an Entity Class.
+ * @author um@.
+ *
+ */
 @Entity
 public class Employee implements Serializable
 {
-	 /**
-	 * 
-	 */
-	
-
 	@Id
 	 @GeneratedValue
 	 private int id;

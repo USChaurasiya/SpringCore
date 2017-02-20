@@ -13,6 +13,10 @@ import org.springframework.web.servlet.ModelAndView;
 import com.uma.domain.Employee;
 import com.uma.service.DataService;
 
+/**
+ * This is Controller Class containing different handler related to form page..
+ * @author um@.
+ */
 @Controller
 public class DataController {
 
